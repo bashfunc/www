@@ -1,5 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to BashFunc Pages
 
-You can use the [editor on GitHub](https://github.com/bashfunc/www/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Bash libraries to use in shell and another DevOps projects such apicra
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Why 
+this is place, where are small and smart part of bash scrripts, which are well documented and usefull every day in software development
