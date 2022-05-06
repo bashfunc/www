@@ -1,5 +1,5 @@
 
-## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/START.md)
+## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/START.md)
 
 The same, with folders
 ```bash
@@ -8,7 +8,7 @@ The same, with folders
 
 Config Path where the project folder exist
 ```bash
-./bashfunc --path "/media/tom/projects/bashfunc/examples/1" "in.md" "out.md"
+./bashfunc --path "/media/tom/projects/bashfunc/www/1" "in.md" "out.md"
 ```
 
 Authorisation
