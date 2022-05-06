@@ -1,36 +1,95 @@
-## Welcome to BashFunc Pages
-
-Bash libraries to use in shell and another DevOps projects such apicra
-
-## Why 
-this is place, where are small and smart part of bash scrripts, which are well documented and usefull every day in The Software Development Projects
 
 
+![logo](http://logo.bashfunc.com/2/cover.png)
+
+# [Usecases - examples.bashfunc.com](http://examples.bashfunc.com/) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/MENU.md)
+
++ [Sourcecode - www.bashfunc.com](http://www.bashfunc.com/)
++ [Offer - offer.bashfunc.com](http://offer.bashfunc.com/)
++ [Documentation - docs.bashfunc.com](http://docs.bashfunc.com/)
++ [Website - www.bashfunc.com](http://www.bashfunc.com/)
++ [News - blog.bashfunc.com](http://blog.bashfunc.com/)
++ [Offer - offer.bashfunc.com](http://offer.bashfunc.com/)
++ [logo.bashfunc.com](https://logo.bashfunc.com/)
++ [LICENSE](LICENSE)
 
 
----
 
-## Tom Sapletta
-+ [Kontakt na linkedin](https://www.linkedin.com/in/tom-sapletta-com/)
-+ [Blog Tom Sapletta ' Embedded System Software & Hardware Developer, Germany Essen](https://tom.sapletta.pl/)
-+ [Firma Softreck - Leadership Through Software Development](https://softreck.pl/)
+## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/INSTALL.md)
 
----
-
-
-## Inne tematy:
-
-+ [Zaplanuj Biznes](https://www.zaplanujbiznes.pl/)
-+ [Dlaczego warto robić biznes w Niemczech? dlaczego.de](https://www.dlaczego.de)
-+ [Dlaczeo warto i jak zostać rezydentem niemieckim? rezydent.de](https://www.rezydent.de)
-+ [Jak zostać nierezydentem polskim? nierezydent.pl](https://www.nierezydent.pl/)
-
-
----
-
-+ [edit](https://github.com/bashfunc/www/edit/main/DOCS/README.md)
-+ [bashFunc projects](https://github.com/bashfunc)
-
+Install from repo: https://github.com/bashfunc/www.git
+```bash
+./install.sh
 ```
-https://github.com/bashfunc/www.git
+
+Update works such git pull for bash repo: https://github.com/bashfunc/www.git
+```bash
+./update.sh
 ```
+
+clean folders from temp files
+```bash
+./clean.sh
+```
+
+
+
+## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/START.md)
+
+The same, with folders
+```bash
+./bashfunc "1/in.md" "1/out.md" 
+```
+
+Config Path where the project folder exist
+```bash
+./bashfunc --path "/media/tom/projects/bashfunc/examples/1" "in.md" "out.md"
+```
+
+Authorisation
+```bash
+./bashfunc "1/in.md" "1/out.md" "1/auth.md"
+```
+
+
+
+
+
+## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/EXAMPLES.md)
+
+Authorisation
+```bash
+./bashfunc "1/in.md" "1/out.md" "1/auth.md"
+```
+
+
+
+
+## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/DOCS.md)
+
+Jak pracować z dokumentacją?
+
+
+combine, publish, open browser
+
+```bash
+./readme.sh
+```
+
+
+
+
+## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/TODO.md)
+
++ publikacja jako odrębny projekt w projekcie bashFunc.com
++ przykłady funkcji w shellu
+  + grep
+  + find
+  + 
+
+
+
+---
+
++ [edit](https://github.com/bashfunc/examples/edit/main/DOCS/README.md)
++ [bashfunc/examples](https://github.com/bashfunc/examples)
