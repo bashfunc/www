@@ -28,7 +28,7 @@ this is place, where are small and smart part of bash scrripts, which are well d
 
 ---
 
-+ [edit](https://github.com/bashfunc/www/edit/main/README.md)
++ [edit](https://github.com/bashfunc/www/edit/main/DOCS/README.md)
 + [bashFunc projects](https://github.com/bashfunc)
 
 ```
