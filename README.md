@@ -2,7 +2,7 @@
 
 ![logo](http://logo.bashfunc.com/2/cover.png)
 
-# [Website - www.bashfunc.com](http://www.bashfunc.com/) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/MENU.md)
+# [Website - www.bashfunc.com](http://www.bashfunc.com/) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/MENU.md)
 
 + [Documentation - docs.bashfunc.com](http://docs.bashfunc.com/)
 + [News - blog.bashfunc.com](http://blog.bashfunc.com/)
@@ -12,7 +12,7 @@
 
 
 
-## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/INSTALL.md)
+## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/INSTALL.md)
 
 Install from repo: https://github.com/plainedit/bash.git
 ```bash
@@ -31,7 +31,7 @@ clean folders from temp files
 
 
 
-## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/START.md)
+## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/START.md)
 
 The same, with folders
 ```bash
@@ -40,7 +40,7 @@ The same, with folders
 
 Config Path where the project folder exist
 ```bash
-./bashfunc --path "/media/tom/projects/bashfunc/examples/1" "in.md" "out.md"
+./bashfunc --path "/media/tom/projects/bashfunc/www/1" "in.md" "out.md"
 ```
 
 Authorisation
@@ -52,17 +52,15 @@ Authorisation
 
 
 
-## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/EXAMPLES.md)
+## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/EXAMPLES.md)
 
-Authorisation
-```bash
-./bashfunc "1/in.md" "1/out.md" "1/auth.md"
-```
+
++ [grep](https://logo.bashfunc.com/)
 
 
 
 
-## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/DOCS.md)
+## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/DOCS.md)
 
 Jak pracować z dokumentacją?
 
@@ -76,7 +74,7 @@ combine, publish, open browser
 
 
 
-## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/examples/edit/main/DOCS/TODO.md)
+## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/TODO.md)
 
 + przykłady funkcji w shellu
   + grep
@@ -87,5 +85,5 @@ combine, publish, open browser
 
 ---
 
-+ [edit](https://github.com/bashfunc/examples/edit/main/DOCS/README.md)
-+ [bashfunc/examples](https://github.com/bashfunc/examples)
++ [edit](https://github.com/bashfunc/www/edit/main/DOCS/README.md)
++ [bashfunc/www](https://github.com/bashfunc/www)
