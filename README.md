@@ -13,7 +13,19 @@
 
 ## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/INSTALL.md)
 
-Install from repo: https://github.com/plainedit/bash.git
+
+Clone the project: *plainedit/examples* from *github*:
+```bash
+git clone https://github.com/plainedit/examples.git
+```
+
+
+Go to the project folder *example* where the project where cloned:
+```bash
+cd examples
+```
+
+Start script *install.sh*  from repo: https://github.com/plainedit/bash.git
 ```bash
 ./install.sh
 ```
@@ -32,37 +44,36 @@ clean folders from temp files
 
 ## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/START.md)
 
+
 The same, with folders
 ```bash
-./bashfunc "1/in.md" "1/out.md" 
+./plainedit.sh "1/in.md" "1/out.md" 
 ```
 
-Config Path where the project folder exist
+The same, with folders
 ```bash
-./bashfunc --path "/media/tom/projects/bashfunc/www/1" "in.md" "out.md"
+./plainedit.sh "1/in.md" "1/out.md" 
+```
+
+Config Path where the project folder exist, PlainEdit can be executed from another bash script with defined path
+```bash
+./plainedit.sh --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
 ```
 
 Authorisation
 ```bash
-./bashfunc "1/in.md" "1/out.md" "1/auth.md"
+./plainedit.sh "1/in.md" "1/out.md" "1/auth.md"
 ```
-
-
 
 ## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/EXAMPLES.md)
 
-
-+ [grep](https://logo.bashfunc.com/)
-
-
-
-+ [www.bashfunc.com](www.bashfunc.com)
-+ [1](www.bashfunc.com/1)
-+ [2](www.bashfunc.com/2)
-+ [delete_string](www.bashfunc.com/delete_string)
-+ [find](www.bashfunc.com/find)
-+ [grep](www.bashfunc.com/grep)
-+ [replace_string](www.bashfunc.com/replace_string)
++ [www.bashfunc.com](http://www.bashfunc.com)
++ [1 # Test 1](http://www.bashfunc.com/1)
++ [2 # Test 2](http://www.bashfunc.com/2)
++ [delete_string # www.bashfunc.com](http://www.bashfunc.com/delete_string)
++ [find # www.bashfunc.com](http://www.bashfunc.com/find)
++ [grep # www.bashfunc.com](http://www.bashfunc.com/grep)
++ [replace_string # www.bashfunc.com](http://www.bashfunc.com/replace_string)
 
 
 ## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/DOCS.md)

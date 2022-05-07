@@ -18,7 +18,7 @@ echo "`date +"%T.%3N"` START" > $LOGS
 echo "$(date +"%T.%3N") CREATE_MENU" >> $LOGS
 #
 DOMAIN=$(cat CNAME)
-echo "+ [$DOMAIN]($DOMAIN)" > DOCS/PROJECTS.md
+echo "+ [$DOMAIN](http://$DOMAIN)" > DOCS/PROJECTS.md
 #
 for FILE in */in.md; do
   line=$(head -n 1 $FILE)
@@ -26,7 +26,7 @@ for FILE in */in.md; do
   #echo PROTOCOL=${URL%%://*}
   NAME=${FILE%%/*}
   URL=$DOMAIN/$NAME
-  echo "+ [$NAME]($URL)" >> DOCS/PROJECTS.md
+  echo "+ [$NAME $line](http://$URL)" >> DOCS/PROJECTS.md
 done
 
 ## combine from another sites
