@@ -7,5 +7,4 @@
 + [News - blog.bashfunc.com](http://blog.bashfunc.com/)
 + [logo.bashfunc.com](https://logo.bashfunc.com/)
 
-+ [LICENSE](LICENSE)
 

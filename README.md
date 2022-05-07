@@ -8,7 +8,6 @@
 + [News - blog.bashfunc.com](http://blog.bashfunc.com/)
 + [logo.bashfunc.com](https://logo.bashfunc.com/)
 
-+ [LICENSE](LICENSE)
 
 
 
@@ -50,14 +49,20 @@ Authorisation
 
 
 
-
-
 ## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/EXAMPLES.md)
 
 
 + [grep](https://logo.bashfunc.com/)
 
 
+
++ [www.bashfunc.com](www.bashfunc.com)
++ [1](www.bashfunc.com/1)
++ [2](www.bashfunc.com/2)
++ [delete_string](www.bashfunc.com/delete_string)
++ [find](www.bashfunc.com/find)
++ [grep](www.bashfunc.com/grep)
++ [replace_string](www.bashfunc.com/replace_string)
 
 
 ## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/DOCS.md)
@@ -85,5 +90,7 @@ combine, publish, open browser
 
 ---
 
-+ [edit](https://github.com/bashfunc/www/edit/main/DOCS/README.md)
++ [edit](https://github.com/bashfunc/www/edit/main/README.md)
 + [bashfunc/www](https://github.com/bashfunc/www)
++ [LICENSE](LICENSE)
+

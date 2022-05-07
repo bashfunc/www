@@ -1,0 +1,7 @@
++ [www.bashfunc.com](www.bashfunc.com)
++ [1](www.bashfunc.com/1)
++ [2](www.bashfunc.com/2)
++ [delete_string](www.bashfunc.com/delete_string)
++ [find](www.bashfunc.com/find)
++ [grep](www.bashfunc.com/grep)
++ [replace_string](www.bashfunc.com/replace_string)
