@@ -14,23 +14,23 @@
 ## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/INSTALL.md)
 
 
-Clone the project: *plainedit/examples* from *github*:
+Clone the project: **plainedit/examples** from **github**:
 ```bash
 git clone https://github.com/plainedit/examples.git
 ```
 
 
-Go to the project folder *example* where the project where cloned:
+Go to the project folder **example** where the project where cloned:
 ```bash
 cd examples
 ```
 
-Start script *install.sh*  from repo: https://github.com/plainedit/bash.git
+Start script **install.sh**  from repo: **https://github.com/plainedit/bash.git**
 ```bash
 ./install.sh
 ```
 
-Update works such git pull for bash repo: https://github.com/plainedit/bash.git
+Update works such **git pull** for bash repo: **https://github.com/plainedit/bash.git**
 ```bash
 ./update.sh
 ```
@@ -55,7 +55,7 @@ The same, with folders
 ./plainedit.sh "1/in.md" "1/out.md" 
 ```
 
-Config Path where the project folder exist, PlainEdit can be executed from another bash script with defined path
+Config Path where the project folder exist, **PlainEdit** can be executed from another bash script with defined path
 ```bash
 ./plainedit.sh --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
 ```

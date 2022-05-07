@@ -12,7 +12,7 @@ The same, with folders
 ./plainedit.sh "1/in.md" "1/out.md" 
 ```
 
-Config Path where the project folder exist, PlainEdit can be executed from another bash script with defined path
+Config Path where the project folder exist, **PlainEdit** can be executed from another bash script with defined path
 ```bash
 ./plainedit.sh --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
 ```
