@@ -21,3 +21,11 @@ Authorisation
 ```bash
 ./plainedit.sh "1/in.md" "1/out.md" "1/auth.md"
 ```
+
+
+## Optional script to clean folders
+
+After you build all files just remove data files in projects to clean disc from temporary files
+```bash
+./clean.sh
+```

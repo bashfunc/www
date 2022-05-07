@@ -23,8 +23,4 @@ Update works such **git pull** for bash repo: **https://github.com/plainedit/bas
 ./update.sh
 ```
 
-clean folders from temp files
-```bash
-./clean.sh
-```
 
