@@ -2,15 +2,15 @@
 ## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/INSTALL.md)
 
 
-Clone the project: **plainedit/examples** from **github**:
+Clone the project: **bashfunc/www** from **github**:
 ```bash
-git clone https://github.com/plainedit/examples.git
+git clone https://github.com/bashfunc/www.git
 ```
 
 
-Go to the project folder **example** where the project where cloned:
+Go to the project folder **www** where the project where cloned:
 ```bash
-cd examples
+cd www
 ```
 
 Start script **install.sh**  from repo: **https://github.com/plainedit/bash.git**
