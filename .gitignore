@@ -9,7 +9,6 @@ plainedit/
 */*.php
 */*.js
 */*.java
-index.html
 .bash
 .idea
 # Logs

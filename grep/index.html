@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <link rel="stylesheet" media='screen and (min-width: 480px)' href="../html/markdown.css"/>
+    <link rel="stylesheet" media='screen and (max-width: 480px)' href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+</head>
+<body>
+<ul>
+<li><a href="http://www.bashfunc.com">www.bashfunc.com</a></li>
+<li><a href="http://www.bashfunc.com/1">1 # Test 1</a></li>
+<li><a href="http://www.bashfunc.com/2">2 # Test 2</a></li>
+<li><a href="http://www.bashfunc.com/delete_string">delete_string # www.bashfunc.com</a></li>
+<li><a href="http://www.bashfunc.com/find">find # www.bashfunc.com</a></li>
+<li><a href="http://www.bashfunc.com/grep">grep # www.bashfunc.com</a></li>
+<li><a href="http://www.bashfunc.com/replace_string">replace_string # www.bashfunc.com</a></li>
+</ul>
+<hr>
+<h1 id="www.bashfunc.com">www.bashfunc.com</h1>
+<h1 id="whoami">WHOAMI</h1>
+<p>My name is:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="fu">whoami</span></span></code></pre></div>
+<p>EXECUTED bash:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="ex">tom</span></span></code></pre></div>
+<h2 id="mkdir">MKDIR</h2>
+<p>Create new Folder</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="fu">mkdir</span> TEST</span></code></pre></div>
+<p>EXECUTED bash:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a><span class="ex">mkdir</span>: das Verzeichnis »TEST“ kann nicht angelegt werden: Die Datei existiert bereits</span></code></pre></div>
+<h2 id="ls">LS</h2>
+<p>Show your folders</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true"></a><span class="fu">ls</span> -la</span></code></pre></div>
+<p>EXECUTED bash:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true"></a><span class="ex">insgesamt</span> 69</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Mai  7 21:26 .</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Feb  9 20:40 ..</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Mai  7 21:13 1</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Mai  7 21:13 2</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom   31 Apr 29 17:51 clean.sh</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom   16 Jan 17  2021 CNAME</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom   26 Mai  7 20:19 _config.yml</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom    0 Mai  7 11:37 delete_string</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Mai  7 21:21 DOCS</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Mai  7 21:14 find</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Mai  7 21:24 .git</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom 1724 Mai  7 21:24 .gitignore</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Mai  7 21:14 grep</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom    0 Mai  7 16:41 html</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Mai  7 21:22 .idea</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom   58 Mai  6 19:36 install.sh</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom 1065 Mai  6 19:29 LICENSE</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom  478 Mai  7 21:27 logs.txt</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom    1 Mai  7 20:19 out.md</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Mai  7 20:19 plainedit</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom 1643 Mai  7 21:26 plainedit.sh</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom  429 Mai  7 21:27 readme.logs.txt</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom 2565 Mai  7 21:27 README.md</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom 1213 Mai  7 21:23 readme.sh</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom  132 Mai  7 16:55 readme.txt</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom 4096 Mai  7 21:15 replace_string</span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true"></a><span class="ex">drwxrwxrwx</span> 1 tom tom    0 Mai  7 20:35 TEST</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom   16 Mai  7 20:20 uninstall.sh</span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true"></a><span class="ex">-rwxrwxrwx</span> 1 tom tom   40 Mai  7 20:19 update.sh</span></code></pre></div>
+<h2 id="php-version">PHP version</h2>
+<p>Check PHP version</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true"></a><span class="ex">php</span> -version</span></code></pre></div>
+<p>EXECUTED bash:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true"></a><span class="ex">PHP</span> 8.0.8 (cli) <span class="kw">(</span><span class="ex">built</span>: Mar  3 2022 14:51:53<span class="kw">)</span> <span class="kw">(</span> <span class="ex">NTS</span> <span class="kw">)</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true"></a><span class="ex">Copyright</span> (c) <span class="ex">The</span> PHP Group</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true"></a><span class="ex">Zend</span> Engine v4.0.8, Copyright (c) <span class="ex">Zend</span> Technologies</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true"></a>    <span class="ex">with</span> Zend OPcache v8.0.8, Copyright (c), <span class="ex">by</span> Zend Technologies</span></code></pre></div>
+<h2 id="php-script">PHP script</h2>
+<p>Show global variable</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode php"><code class="sourceCode php"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true"></a><span class="kw">class</span> Fruit {</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true"></a>    <span class="kw">public</span> <span class="kw">$name</span><span class="ot">;</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true"></a>  </span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true"></a>    <span class="kw">function</span> <span class="fu">__construct</span><span class="ot">(</span><span class="kw">$name</span><span class="ot">)</span> {</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true"></a>        <span class="kw">$this</span>-&gt;name = <span class="kw">$name</span><span class="ot">;</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true"></a>    }</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true"></a>    <span class="kw">function</span> <span class="fu">__toString</span><span class="ot">()</span> {</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true"></a>        <span class="kw">return</span> <span class="kw">$this</span>-&gt;name<span class="ot">;</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true"></a>    }</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true"></a>}</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true"></a></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true"></a><span class="kw">$apple</span> = <span class="kw">new</span> Fruit<span class="ot">(</span><span class="st">&quot;Apple&quot;</span><span class="ot">);</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true"></a><span class="kw">echo</span> <span class="dt">(string )</span> <span class="kw">$apple</span><span class="ot">;</span></span></code></pre></div>
+<p>EXECUTED php:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode php"><code class="sourceCode php"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true"></a>Apple</span></code></pre></div>
+<h2 id="ping">PING</h2>
+<p>Show your folders</p>
+<pre><code>ping -q -c 1 softreck.com ; echo $?</code></pre>
+<h2 id="stop">STOP</h2>
+<hr>
+<h2>LOCAL MENU</h2>
+<ul>
+<li><a href="/media/tom/projects/bashfunc/www/">/media/tom/projects/bashfunc/www</a></li>
+<li><a href="/media/tom/projects/bashfunc/www/1/index.html">1 # Test 1</a></li>
+<li><a href="/media/tom/projects/bashfunc/www/2/index.html">2 # Test 2</a></li>
+<li><a href="/media/tom/projects/bashfunc/www/delete_string/index.html">delete_string # www.bashfunc.com</a></li>
+<li><a href="/media/tom/projects/bashfunc/www/find/index.html">find # www.bashfunc.com</a></li>
+<li><a href="/media/tom/projects/bashfunc/www/grep/index.html">grep # www.bashfunc.com</a></li>
+<li><a href="/media/tom/projects/bashfunc/www/replace_string/index.html">replace_string # www.bashfunc.com</a></li>
+</ul>
+</body>
+</html>
