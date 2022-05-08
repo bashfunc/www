@@ -78,6 +78,7 @@ After you build all files just remove data files in projects to clean disc from 
 + [find # www.bashfunc.com](http://www.bashfunc.com/find)
 + [grep # www.bashfunc.com](http://www.bashfunc.com/grep)
 + [replace_string # www.bashfunc.com](http://www.bashfunc.com/replace_string)
++ [whois # www.bashfunc.com](http://www.bashfunc.com/whois)
 
 
 ## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/bashfunc/www/edit/main/DOCS/DOCS.md)

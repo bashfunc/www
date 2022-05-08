@@ -5,3 +5,4 @@
 + [find # www.bashfunc.com](http://www.bashfunc.com/find)
 + [grep # www.bashfunc.com](http://www.bashfunc.com/grep)
 + [replace_string # www.bashfunc.com](http://www.bashfunc.com/replace_string)
++ [whois # www.bashfunc.com](http://www.bashfunc.com/whois)

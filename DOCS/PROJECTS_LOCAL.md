@@ -5,3 +5,4 @@
 + [find # www.bashfunc.com](/media/tom/projects/bashfunc/www/find/index.html)
 + [grep # www.bashfunc.com](/media/tom/projects/bashfunc/www/grep/index.html)
 + [replace_string # www.bashfunc.com](/media/tom/projects/bashfunc/www/replace_string/index.html)
++ [whois # www.bashfunc.com](/media/tom/projects/bashfunc/www/whois/index.html)
